@@ -12,6 +12,7 @@
   "author": "Shelida Gomes",
   "license": "ISC",
   "dependencies": {
+    "antd": "^4.15.4",
     "concurrently": "^6.0.2",
     "express": "^4.17.1",
     "nodemon": "^2.0.7",
