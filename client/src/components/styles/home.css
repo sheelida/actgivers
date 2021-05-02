@@ -1,0 +1,25 @@
+h2 {
+  width: 100%;
+  padding: 5% 0;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  width: 70%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 5%;
+}
+
+a,
+svg {
+  color: #668c4a;
+}
+.ant-pagination-item-active a,
+.ant-pagination-item-active {
+  border-color: #668c4a !important;
+  color: #668c4a !important;
+}

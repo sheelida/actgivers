@@ -1,0 +1,19 @@
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  min-height: 75px;
+  background-color: #a6bf4b;
+  align-items: center;
+  padding-left: 5%;
+}

@@ -1,0 +1,33 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.col:last-child {
+  margin-left: 5%;
+}
+
+.mainContainer .row .col h3 {
+  text-align: start;
+  font-weight: 900;
+  color: #b1b1ac;
+  font-family: 'Roboto';
+  font-size: 14pt;
+}
+
+.ant-btn-primary {
+  background: #668c4a;
+  color: #fff;
+  border-color: #668c4a;
+  width: 100%;
+}
+.ant-btn:not([disabled]):hover {
+  background: #a6bf4b;
+  color: #fff;
+  border-color: #a6bf4b;
+}
